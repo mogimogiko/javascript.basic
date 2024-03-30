@@ -11,3 +11,6 @@ personalData.addres = '東京都';
 
 // オブジェクトの値を出力する
 console.log(personalData);
+
+// 男性を追加
+console.log(personalData.gender);
