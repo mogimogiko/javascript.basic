@@ -21,6 +21,15 @@ for (let i = 0; i < headings.length; i++) {
   console.log(headings[i]);
 }
 
+// 複数のHTML要素を1つずつ取得し、定数に代入する
+const headings1 = document.querySelectorAll('h1');
+
+// 複数のHTML要素を1つずつ取得し、中身を出力する
+for (let i = 0; i < headings1.length; i++) {
+  // console.log(headings1[i]);
+   headings1[i].innerHTML = i;
+}
+
 // HTML要素をCSSセレクタで取得し、中身を出力する（最初の一つ）
 console.log(document.querySelector('h1'));
 console.log(document.querySelector('#second-heading'));
