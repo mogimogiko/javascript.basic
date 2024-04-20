@@ -21,5 +21,5 @@ const getCookie = (name) => {
 document.getElementById('output').textContent = 'name=' + getCookie('name') + 'age=' + getCookie('age');
 
 // クッキーを作成
-document.cookie = 'name' + encodeURIComponent('侍太郎') + ';max-age=60 * 60';
+document.cookie = 'name=' + encodeURIComponent('侍太郎') + ';max-age=60 * 60';
 document.cookie = 'age=30; max-age=60 * 60';
